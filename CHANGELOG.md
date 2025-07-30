@@ -4,154 +4,150 @@ All notable changes to Genshin Impact Hub will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.0] - 2025-01-31
+## [2.1.1] - 31-07-2025
 
 ### ✨ Added
-- **Changelog Tab**: New changelog section with beautiful UI design
-- **Markdown Support**: Full markdown rendering with custom Genshin-themed styling
-- **Loading Animations**: Smooth fade-in animations for changelog items
-- **Error Handling**: Graceful error display with retry functionality
-- **Responsive Design**: Mobile-friendly changelog layout
+- Karakter baru ditambahkan ke database:
+  - **Aino**
+  - **Flins**
+  - **Lauma**
+- Gambar build untuk karakter baru belum tersedia.
+- Gambar material untuk karakter baru tersedia.
+- Kartu karakter langsung dapat diklik untuk melihat detail lengkap.
 
-### 🎨 Improved
-- **UI Enhancement**: Better visual hierarchy with Genshin Impact theme colors
-- **Navigation**: Seamless tab switching between Database, News, and Changelog
-- **Performance**: Optimized loading states for better user experience
-
-## [2.0.0] - 2025-01-30
-
-### ✨ Added
-- **Community/News Tab**: Reddit RSS feed integration for official Genshin announcements
-- **Real-time Updates**: Live news feed from official Genshin Impact sources
-- **Post Filtering**: Smart content filtering and deduplication
-- **Image Support**: Thumbnail display for news posts
-- **External Links**: Direct links to full announcements
-
-### 🔧 Changed
-- **Tab Structure**: Reorganized navigation for better user flow
-- **API Integration**: Enhanced API handling with better error management
-
-## [1.2.0] - 2025-01-25
-
-### ✨ Added
-- **Farming Schedule**: Complete farming schedule with daily domains
-- **Visual Schedule**: Image-based farming calendar
-- **Domain Information**: Detailed domain availability by day
-
-### 🎨 Improved
-- **Grid Layout**: Optimized grid system for farming schedule display
-- **Image Loading**: Better image error handling and placeholders
-
-## [1.1.0] - 2025-01-20
-
-### ✨ Added
-- **Weapons Database**: Complete weapons catalog with filtering
-- **Rarity Filter**: Filter weapons by 4★ and 5★ rarity
-- **Weapon Search**: Real-time search functionality for weapons
-- **Image Optimization**: Proper aspect ratio handling for weapon images
-
-### 🔧 Changed
-- **API Endpoints**: Updated weapon API integration
-- **Image Handling**: Improved image loading with fallback support
-
-### 🐛 Fixed
-- Image URL handling for weapons without HTTP protocol
-- Responsive grid layout issues on mobile devices
-
-## [1.0.0] - 2025-01-15
-
-### ✨ Added
-- **Character Database**: Complete character roster with build information
-- **Character Details Modal**: Detailed view with builds and materials
-- **Search Functionality**: Real-time character search
-- **Responsive Design**: Mobile-first responsive layout
-- **API Integration**: Connected to Genshin Impact API for live data
-
-### 🎨 UI/UX Features
-- **Genshin Theme**: Beautiful Genshin Impact themed design
-- **Hero Section**: Stunning header with game artwork
-- **Card Layouts**: Modern card-based design for characters
-- **Hover Effects**: Smooth animations and transitions
-- **Loading States**: Professional loading indicators
-
-### 🔧 Technical Features
-- **Bootstrap 5**: Modern CSS framework integration
-- **Font Awesome**: Icon library for better UX
-- **Google Fonts**: Poppins font for better typography
-- **API Error Handling**: Robust error management
-- **Performance Optimization**: Optimized image loading and caching
-
-## [0.2.0] - 2025-01-10
-
-### ✨ Added
-- **Tab Navigation**: Multi-tab interface for different sections
-- **Filter System**: Advanced filtering for characters and weapons
-- **Modal System**: Character details in modal popup
-- **Grid System**: Responsive grid layouts
-
-### 🎨 Improved
-- **Color Scheme**: Enhanced Genshin Impact color palette
-- **Typography**: Better font hierarchy and readability
-- **Spacing**: Improved layout spacing and margins
-
-## [0.1.0] - 2025-01-05
-
-### ✨ Added
-- **Initial Release**: Basic project structure
-- **HTML Foundation**: Core HTML structure
-- **CSS Framework**: Basic styling system
-- **JavaScript Core**: Essential JavaScript functionality
-- **Project Setup**: Initial project configuration
+### 🔧 Note
+- Agar perubahan muncul dengan benar, **hapus cache browser terlebih dahulu**:
+  - Tekan `Ctrl + Shift + R` (PC)
+  - Atau clear cache dari pengaturan browser
 
 ---
 
-## 🚀 Upcoming Features
+## [2.1.0] - 30-07-2025
 
-### Version 2.2.0 (Planned)
-- **Artifact Database**: Complete artifact sets with stats
-- **Team Builder**: Create and save team compositions
-- **Damage Calculator**: Basic damage calculation tool
-- **Bookmark System**: Save favorite characters and builds
+### ✨ Added
+- Tab Changelog baru dengan desain UI yang menarik.
+- Dukungan penuh untuk markdown dengan tampilan bertema Genshin.
+- Animasi loading yang halus saat menampilkan isi changelog.
+- Penanganan error yang ramah pengguna dan bisa dicoba ulang.
+- Layout yang mendukung perangkat mobile.
 
-### Version 2.3.0 (Planned)
-- **Event Calendar**: Upcoming events and banners
-- **Wish Tracker**: Gacha pull tracking system
-- **Achievement Tracker**: Track in-game achievements
-- **Dark Mode**: Dark theme option
+### 🎨 Improved
+- Tampilan visual ditingkatkan dengan warna-warna khas Genshin Impact.
+- Navigasi antar tab lebih lancar dan intuitif.
+- Waktu loading lebih cepat dan lebih efisien.
 
-### Version 3.0.0 (Future)
-- **User Accounts**: Personal profiles and data sync
-- **Build Sharing**: Share custom builds with community
-- **Mobile App**: Native mobile application
-- **Offline Mode**: Offline data access
+## [2.0.0] - 15-07-2025
+
+### ✨ Added
+- Tab Community/News baru yang menampilkan feed Reddit resmi.
+- Feed berita langsung dari sumber resmi Genshin Impact.
+- Penyaringan konten otomatis dan penghapusan duplikat.
+- Dukungan tampilan gambar thumbnail di berita.
+- Tautan langsung ke pengumuman resmi di Reddit.
+
+### 🔧 Changed
+- Struktur tab diatur ulang agar lebih mudah digunakan.
+- Integrasi API ditingkatkan dengan penanganan error yang lebih baik.
+
+## [1.2.0] - 14-07-2025
+
+### ✨ Added
+- Jadwal domain lengkap untuk farming harian.
+- Tampilan kalender visual berbasis gambar.
+- Informasi detail tentang domain berdasarkan hari.
+
+### 🎨 Improved
+- Grid layout lebih responsif dan rapi.
+- Penanganan error gambar dengan tampilan placeholder otomatis.
+
+## [1.1.0] - 11-07-2025
+
+### ✨ Added
+- Database senjata lengkap dengan fitur filter.
+- Filter senjata berdasarkan tingkat kelangkaan (4★ dan 5★).
+- Pencarian senjata secara real-time.
+- Tampilan gambar senjata sudah dioptimalkan dengan rasio proporsional.
+
+### 🔧 Changed
+- Endpoint API senjata diperbarui.
+- Penanganan gambar yang lebih baik dan stabil.
+
+### 🐛 Fixed
+- URL gambar yang tidak menggunakan protokol `http` kini ditangani.
+- Masalah layout grid pada tampilan mobile diperbaiki.
+
+## [1.0.0] - 07-07-2025
+
+### ✨ Added
+- Database karakter lengkap beserta informasi build-nya.
+- Tampilan detail karakter dengan modal build dan material.
+- Fungsi pencarian karakter secara langsung.
+- Layout yang ramah untuk tampilan mobile.
+- Terhubung ke API Unofficial Genshin Impact untuk data langsung.
+
+### 🎨 UI/UX Features
+- Desain bertema Genshin Impact.
+- Header utama dengan gambar dari game.
+- Layout kartu modern untuk tampilan karakter.
+- Efek hover yang halus dan elegan.
+- Indikator loading profesional.
+
+### 🔧 Technical Features
+- Menggunakan Bootstrap 5 sebagai kerangka CSS.
+- Ikon dari Font Awesome untuk UX yang lebih baik.
+- Font Google Poppins untuk tipografi yang indah.
+- Penanganan error API yang tangguh.
+- Optimisasi performa dengan caching gambar.
+
+## [0.2.0] - 02-07-2025
+
+### ✨ Added
+- Navigasi tab untuk berpindah antar bagian dengan mudah.
+- Sistem filter canggih untuk karakter dan senjata.
+- Modal pop-up untuk detail karakter.
+- Layout grid yang responsif.
+
+### 🎨 Improved
+- Skema warna diperindah sesuai tema Genshin Impact.
+- Tipografi lebih jelas dengan hirarki yang baik.
+- Spasi dan margin layout ditingkatkan untuk kenyamanan.
+
+## [0.1.0] - 23-06-2025
+
+### ✨ Added
+- Rilis awal dengan struktur proyek dasar.
+- Fondasi HTML utama.
+- Sistem styling dasar dengan CSS.
+- Fungsionalitas JavaScript inti.
+- Konfigurasi awal proyek.
+
+---
+
+## 📦 Character & Weapon Update
+
+- Beberapa karakter dan senjata telah diperbarui di database.
+- Untuk melihat perubahan terbaru, **hapus cache browser** terlebih dahulu:
+  - Tekan `Ctrl + Shift + R` (di PC)
+  - Atau clear cache dari pengaturan browser
 
 ---
 
 ## 📝 Notes
 
-- All data is sourced from official Genshin Impact APIs
-- This is an unofficial fan project, not affiliated with HoYoverse
-- Regular updates follow game version releases
-- Community feedback is always welcome
+- Semua data berasal dari API.
+- Proyek ini bersifat fan-made dan tidak berafiliasi dengan HoYoverse.
+- Update dilakukan secara rutin mengikuti rilis versi game.
+- Masukan dan feedback dari komunitas sangat dihargai.
 
 ## 🐛 Bug Reports
 
-Found a bug? Please report it by:
-1. Checking existing issues first
-2. Creating a detailed bug report
-3. Including screenshots if applicable
-4. Mentioning your browser and device
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+Jika kamu menemukan bug:
+1. Cek terlebih dahulu apakah sudah ada di daftar issue.
+2. Buat laporan baru jika belum ada.
+3. Sertakan tangkapan layar jika perlu.
+4. Cantumkan info perangkat dan browser kamu.
 
 ---
 
-**Made with ❤️ by Aditya Jatayu**
-
-*Genshin Impact Hub - Your ultimate Genshin Impact companion*
+**Made with ❤️ by Aditya Jatayu**  
+*Genshin Impact Hub – Your ultimate Genshin Impact companion*

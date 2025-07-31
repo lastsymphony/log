@@ -122,21 +122,13 @@ All notable changes to Genshin Impact Hub will be documented in this file.
 
 ---
 
-## 📦 Character & Weapon Update
-
-- Beberapa karakter dan senjata telah diperbarui di database.
-- Untuk melihat perubahan terbaru, **hapus cache browser** terlebih dahulu:
-  - Tekan `Ctrl + Shift + R` (di PC)
-  - Atau clear cache dari pengaturan browser
-
----
-
 ## 📝 Notes
 
 - Semua data berasal dari API.
 - Proyek ini bersifat fan-made dan tidak berafiliasi dengan HoYoverse.
 - Update dilakukan secara rutin mengikuti rilis versi game.
 - Masukan dan feedback dari komunitas sangat dihargai.
+- #KyTxR5pHaEn2
 
 ## 🐛 Bug Reports
 
@@ -145,6 +137,7 @@ Jika kamu menemukan bug:
 2. Buat laporan baru jika belum ada.
 3. Sertakan tangkapan layar jika perlu.
 4. Cantumkan info perangkat dan browser kamu.
+   
 
 ---
 
